@@ -1,0 +1,418 @@
+{
+  "source": {
+    "location": {
+      "type": "Point",
+      "geometry": [
+        2.2734297,
+        48.8363625
+      ]
+    },
+    "addressLines": [],
+    "geocodeScore": 0,
+    "cleanScore": 0,
+    "street": "46 rue stendhal",
+    "city": "Paris",
+    "zip": "",
+    "country": "FR",
+    "address": "46 rue stendhal Paris FR"
+  },
+  "location": {
+    "location": {
+      "type": "Point",
+      "geometry": [
+        2.2734297,
+        48.8363625
+      ]
+    },
+    "addressLines": [
+      "46 rue stendhal",
+      "Paris",
+      "FR"
+    ],
+    "geocodeScore": 100,
+    "cleanScore": 0,
+    "street": "46 rue stendhal",
+    "city": "Paris",
+    "zip": "",
+    "country": "FR",
+    "address": "46 rue stendhal Paris FR"
+  },
+  "errorLocation": {
+    "location": {
+      "type": "Point",
+      "geometry": []
+    },
+    "addressLines": [],
+    "geocodeScore": 0,
+    "cleanScore": 0
+  },
+  "notificationSettings": {
+    "sms": true,
+    "email": true
+  },
+  "contact": {
+    "account": "172850",
+    "person": "LUCIE MOULIN",
+    "phone": "06 63 77 89 28",
+    "email": "lucie@foodcheri.com"
+  },
+  "requires": {
+    "pickup": {
+      "dispatcher": {
+        "scan": false
+      },
+      "driver": {
+        "signature": false,
+        "signatureAndComment": false,
+        "scan": false,
+        "comment": false,
+        "photo": false
+      },
+      "stop": {
+        "onSite": true
+      },
+      "failure": {
+        "photo": false
+      }
+    },
+    "delivery": {
+      "dispatcher": {
+        "scan": false
+      },
+      "driver": {
+        "prepCheckList": true,
+        "prepScan": true,
+        "signatureAndComment": false,
+        "signatureAndItemConcerns": false,
+        "signature": false,
+        "scan": false,
+        "comment": false,
+        "photo": false
+      },
+      "stop": {
+        "onSite": true
+      },
+      "failure": {
+        "photo": false
+      },
+      "dropOff": {
+        "driver": {
+          "prepCheckList": false,
+          "prepScan": false,
+          "signatureAndComment": false,
+          "signatureAndItemConcerns": false,
+          "signature": false,
+          "scan": false,
+          "comment": false,
+          "photo": false
+        },
+        "stop": {
+          "onSite": false
+        }
+      }
+    },
+    "service": {
+      "driver": {
+        "signature": false,
+        "signatureAndComment": false,
+        "comment": false,
+        "photo": false
+      },
+      "stop": {
+        "onSite": false
+      },
+      "failure": {
+        "photo": false
+      }
+    },
+    "other": {
+      "driver": {
+        "timer": false
+      }
+    }
+  },
+  "delay": {
+    "time": 15905000,
+    "when": "2020-06-09T13:55:05.612Z"
+  },
+  "timeWindow": {
+    "start": "2020-06-09T09:30:00.000Z",
+    "stop": "2020-06-09T09:45:00.000Z"
+  },
+  "actualTime": {
+    "arrive": {
+      "location": {
+        "type": "Point",
+        "geometry": [
+          2.4010137,
+          48.8623155
+        ]
+      },
+      "when": "2020-06-09T13:54:01.013Z",
+      "forced": true
+    }
+  },
+  "measuredServiceTime": {
+    "areTrackingDataSuitable": false
+  },
+  "execution": {
+    "position": {
+      "accuracy": 14.312999725341797,
+      "heading": 90,
+      "altitude": 129.10000610351562,
+      "latitude": 48.8623188,
+      "longitude": 2.4010004,
+      "speed": 0.0010146184358745813,
+      "timestamp": 1591710905382
+    },
+    "timer": {
+      "timestamps": []
+    }
+  },
+  "collect": {
+    "activated": false
+  },
+  "status": "DELIVERED",
+  "activity": "classic",
+  "skills": [],
+  "labels": [
+    "b2b"
+  ],
+  "attempts": 1,
+  "timeWindowMargin": 0,
+  "optimizationCount": 1,
+  "hasBeenPaid": null,
+  "closureDate": "2020-06-09T13:55:05.382Z",
+  "lastOfflineUpdatedAt": 1591710905515,
+  "replanned": false,
+  "archived": false,
+  "paymentType": null,
+  "collectedAmount": 0,
+  "metadata": {
+    "hub_id": "28",
+    "id_order": "2163428",
+    "isB2B": true,
+    "isVIP": true,
+    "order_status": "READY_DISPATCH",
+    "simpleId": "ALT001",
+    "titres_Restaurant": "0 €"
+  },
+  "log": [
+    {
+      "when": "2020-06-09T13:52:41.488Z",
+      "_id": "5edf9429602ce1a4ddbfae08",
+      "to": "GEOCODED",
+      "by": null
+    },
+    {
+      "when": "2020-06-09T13:53:32.699Z",
+      "by": {
+        "reference": {
+          "name": "self",
+          "value": "lucie@foodcheri.com"
+        },
+        "_id": "5e3d705b8228fb663f9c4285",
+        "email": "lucie@foodcheri.com",
+        "firstName": "Lucie",
+        "lastName": "Moulin",
+        "externalId": "lucie@foodcheri.com",
+        "id": "5e3d705b8228fb663f9c4285"
+      },
+      "to": "ASSIGNED"
+    },
+    {
+      "when": "2020-06-09T13:53:49.118Z",
+      "by": {
+        "reference": {
+          "name": "self",
+          "value": "moulin.lucie.moulin@gmail.com"
+        },
+        "_id": "5e7dd647c046da172da2af65",
+        "email": "moulin.lucie.moulin@gmail.com",
+        "firstName": "Lucie",
+        "lastName": "Moulin",
+        "externalId": "moulin.lucie.moulin@gmail.com",
+        "phoneNumber": "+33663778928",
+        "id": "5e7dd647c046da172da2af65"
+      },
+      "to": "ONGOING"
+    },
+    {
+      "when": "2020-06-09T13:55:05.382Z",
+      "_id": "5edf94b95672434b5f05ae09",
+      "by": {
+        "reference": {
+          "name": "self",
+          "value": "moulin.lucie.moulin@gmail.com"
+        },
+        "_id": "5e7dd647c046da172da2af65",
+        "email": "moulin.lucie.moulin@gmail.com",
+        "firstName": "Lucie",
+        "lastName": "Moulin",
+        "externalId": "moulin.lucie.moulin@gmail.com",
+        "phoneNumber": "+33663778928",
+        "id": "5e7dd647c046da172da2af65"
+      },
+      "to": "COMPLETED"
+    }
+  ],
+  "issues": [],
+  "when": "2020-06-09T13:52:41.486Z",
+  "updated": "2020-06-09T13:55:05.410Z",
+  "notifications": [],
+  "attachments": [],
+  "items": [
+    {
+      "damaged": {
+        "confirmed": false,
+        "pictures": []
+      },
+      "status": "DELIVERED",
+      "quantity": 1,
+      "labels": [
+        "b2b"
+      ],
+      "skills": [],
+      "lastOfflineUpdatedAt": null,
+      "log": [
+        {
+          "when": "2020-06-09T13:52:41.488Z",
+          "_id": "5edf9429602ce18d8bbfae0a",
+          "to": "PENDING",
+          "by": null
+        },
+        {
+          "when": "2020-06-09T13:53:32.699Z",
+          "by": {
+            "reference": {
+              "name": "self",
+              "value": "lucie@foodcheri.com"
+            },
+            "_id": "5e3d705b8228fb663f9c4285",
+            "email": "lucie@foodcheri.com",
+            "firstName": "Lucie",
+            "lastName": "Moulin",
+            "externalId": "lucie@foodcheri.com",
+            "id": "5e3d705b8228fb663f9c4285"
+          },
+          "to": "ARRIVED"
+        },
+        {
+          "when": "2020-06-09T13:53:47.169Z",
+          "_id": "5edf946b927f783bd6a64add",
+          "by": {
+            "reference": {
+              "name": "self",
+              "value": "moulin.lucie.moulin@gmail.com"
+            },
+            "_id": "5e7dd647c046da172da2af65",
+            "email": "moulin.lucie.moulin@gmail.com",
+            "firstName": "Lucie",
+            "lastName": "Moulin",
+            "externalId": "moulin.lucie.moulin@gmail.com",
+            "phoneNumber": "+33663778928",
+            "id": "5e7dd647c046da172da2af65"
+          },
+          "to": "PREPARED"
+        },
+        {
+          "when": "2020-06-09T13:53:49.118Z",
+          "by": {
+            "reference": {
+              "name": "self",
+              "value": "moulin.lucie.moulin@gmail.com"
+            },
+            "_id": "5e7dd647c046da172da2af65",
+            "email": "moulin.lucie.moulin@gmail.com",
+            "firstName": "Lucie",
+            "lastName": "Moulin",
+            "externalId": "moulin.lucie.moulin@gmail.com",
+            "phoneNumber": "+33663778928",
+            "id": "5e7dd647c046da172da2af65"
+          },
+          "to": "DEPARTED"
+        },
+        {
+          "when": "2020-06-09T13:55:05.382Z",
+          "_id": "5edf94b95672432b7b05ae0a",
+          "by": {
+            "reference": {
+              "name": "self",
+              "value": "moulin.lucie.moulin@gmail.com"
+            },
+            "_id": "5e7dd647c046da172da2af65",
+            "email": "moulin.lucie.moulin@gmail.com",
+            "firstName": "Lucie",
+            "lastName": "Moulin",
+            "externalId": "moulin.lucie.moulin@gmail.com",
+            "phoneNumber": "+33663778928",
+            "id": "5e7dd647c046da172da2af65"
+          },
+          "to": "DELIVERED"
+        }
+      ],
+      "_id": "5edf9429602ce180fbbfae09",
+      "name": "ALT001",
+      "description": "",
+      "barcode": "4651d25ae98e2b2352ce84cf045cc009",
+      "barcodeEncoding": "EAN13",
+      "dimensions": {
+        "Sac": 1
+      }
+    }
+  ],
+  "products": [],
+  "customerCalls": [],
+  "_id": "5edf9429602ce1e67abfae06",
+  "date": "2020-06-09T00:00:00.000Z",
+  "endpoint": "5e6758db2f85860d1c9146a6",
+  "taskId": "ALT001-2163428",
+  "type": "delivery",
+  "announcement": "5edf94292f9d73670d8ef8cc",
+  "announcementUpdate": "5edf94292f9d73670d8ef8cc",
+  "by": "5dcc3e87468dc40d05ffc4ab",
+  "client": "Foodcheri",
+  "dimensions": {
+    "Sac": 1
+  },
+  "flux": "5dcc3fa22351b54f09c0316c",
+  "hasRejectedProducts": false,
+  "id": "5edf9429602ce1e67abfae06",
+  "imagePath": "https://backend.urbantz.com/pictures/platforms/5dcc384c5217b8042a13c328/",
+  "instructions": "A l'accueil (RECEPTION) - 4564",
+  "platform": "5dcc384c5217b8042a13c328",
+  "platformName": "Foodcheri Preprod",
+  "progress": "COMPLETED",
+  "serviceTime": 0,
+  "shift": "11H",
+  "sourceHash": "a3cf120122e4fff98419a8fbf64ea479a81b1d1164c6d26154dca2be9e17e841",
+  "trackingId": "5edf9429-602ce1e6-7abfae06-e5e76941",
+  "hub": "5e665bc67a4cde0cf2db2936",
+  "hubName": "Altice Campus",
+  "targetFlux": "5e665bc67a4cde0cf2db2936_11H_5dcc3fa22351b54f09c0316c_2020-06-09",
+  "zone": "Paris",
+  "order": "5edf9429602ce153b7bfae0b",
+  "arriveTime": "2020-06-09T09:30:00.000Z",
+  "associated": null,
+  "associatedName": null,
+  "driver": {
+    "reference": {
+      "name": "self",
+      "value": "moulin.lucie.moulin@gmail.com"
+    },
+    "_id": "5e7dd647c046da172da2af65",
+    "email": "moulin.lucie.moulin@gmail.com",
+    "firstName": "Lucie",
+    "lastName": "Moulin",
+    "externalId": "moulin.lucie.moulin@gmail.com",
+    "phoneNumber": "+33663778928",
+    "id": "5e7dd647c046da172da2af65"
+  },
+  "initialSequence": 1,
+  "optimizationGroup": null,
+  "round": "5edf945c3c675971f70bf5ce",
+  "roundColor": "#F44336",
+  "roundName": "R01",
+  "sequence": 1,
+  "completedBy": "mobile"
+}
